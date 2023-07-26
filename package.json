@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "quantum-bot",
+  "version": "1.2.0",
+  "description": "zzz",
+  "main": "quantum.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "NeKosmic",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.4.0",
+    "@adiwajshing/keyed-db": "^0.2.4"
+  }
+}
