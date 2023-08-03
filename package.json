@@ -1,17 +1,61 @@
 {
-  "type": "module",
-  "name": "quantum-bot",
-  "version": "1.2.0",
-  "description": "zzz",
-  "main": "quantum.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "NeKosmic",
-  "license": "GPL-3.0",
-  "dependencies": {
-    "@whiskeysockets/baileys": "^6.4.0",
-    "@adiwajshing/keyed-db": "^0.2.4"
-  }
+	"name": "Quantum-Bot",
+	"version": "1.2.0",
+	"description": "Bot simple para Whatsapp, con alguno que otro error :v",
+	"main": "nk.js",
+	"type": "module",
+	"directories": {
+		"lib": "lib",
+		"multimedia": "multimedia",
+		"basededatos": "basededatos"
+	},
+	"scripts": {
+		"start": "node nk.js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"test2": "nodemon nk.js"
+	},
+	"keywords": [
+		"termux-whatsapp-bot",
+		"multi-device",
+		"MD",
+		"baileys-md"
+	],
+	"homepage": "",
+	"author": {
+		"name": "Matt_Mdz"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"bugs": {
+		"url": ""
+	},
+	"license": "GPL-3.0",
+	"dependencies": {
+		"@whiskeysockets/baileys": "^6.4.0",
+		"@adiwajshing/keyed-db": "^0.2.4",
+		"@bochilteam/scraper": "^4.2.4",
+		"axios": "^1.4.0",
+		"cfonts": "^3.2.0",
+		"chalk": "^5.3.0",
+		"fluent-ffmpeg": "^2.1.2",
+		"file-type": "^18.5.0",
+		"human-readable": "^0.2.1",
+		"jimp": "^0.16.1",
+		"mongoose": "^7.3.1",
+		"moment-timezone": "^0.5.43",
+		"node-fetch": "^3.3.2",
+		"node-webpmux": "^3.1.7",
+		"pino": "^8.14.2",
+		"performance-now": "^2.1.0",
+		"qrcode-terminal": "^0.12.0",
+		"qrcode": "^1.5.3",
+		"readline": "^1.3.0",
+		"ws": "^8.13.0",
+		"yargs": "^17.7.2"
+	},
+	"optionalDependencies": {
+		"wa-sticker-formatter": "^4.4.4"
+	}
 }
