@@ -41,6 +41,7 @@
 		"chalk": "^5.3.0",
 		"fluent-ffmpeg": "^2.1.2",
 		"formdata-node": "^5.0.1",
+		"fs-extra": "^11.1.1",
 		"file-type": "^18.5.0",
 		"human-readable": "^0.2.1",
 		"jsdom": "^22.1.0",
