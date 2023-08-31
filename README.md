@@ -28,9 +28,10 @@
 
 ## Installation  🧑‍💻
   <details><summary>Termux</summary>
-    [_>] *Copy and paste line by line into termux for installation. it can also be used on systems based on Debian and Ubuntu.*
-
-  ```
+    
+  [_>] *Copy and paste line by line into termux for installation. it can also be used on systems based on Debian and Ubuntu.*
+    
+```
 ~$ apt update && apt upgrade -y
 
 ~$ apt install nodejs git libwebp ffmpeg imagemagick yarn -y
