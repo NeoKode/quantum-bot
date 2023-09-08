@@ -33,7 +33,7 @@
 	},
 	"license": "GPL-3.0",
 	"dependencies": {
-		"@whiskeysockets/baileys": "^6.4.0",
+		"@whiskeysockets/baileys": "^6.4.1",
 		"@adiwajshing/keyed-db": "^0.2.4",
 		"@bochilteam/scraper": "^4.2.4",
 		"axios": "^1.4.0",
