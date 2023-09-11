@@ -36,11 +36,11 @@
 
 ~$ apt install nodejs git libwebp ffmpeg imagemagick yarn -y
 
--$ git clone https://github.com/NeoKode/quantum-bot
+~$ git clone https://github.com/NeoKode/quantum-bot
 
--$ cd quantum-bot
+~$ cd quantum-bot
 
--$ yarn
+~$ yarn
 ```
 </details>
 
@@ -52,6 +52,64 @@
 - PC/RDP/VPS
 - Host/Virtual machines 
 
+</details>
+
+## Configure and edit bot
+  <details><summary>Basic settings</summary>
+    
+  [File package.json](https://github.com/NeoKode/quantum-bot/tree/main)
+    
+```javascript
+Note: avoid using special characters when editing the package.json, example: !, @, #, $, %, ^, &, *, etc.
+{
+"name": "Quantum_Bot", //If you want you can change the name of the project :D
+...
+"author": {
+"name": "Matt_Mdz" //Here enter your name or nickname!
+},
+...
+}
+```
+  
+  [File config.json](https://github.com/NeoKode/quantum-bot/blob/main/config.json)
+    
+```javascript
+{
+"Prefijo": "/", //You can change the value with symbols, letters or special characters.
+
+"MultiIdioma": [true, ""], //Within the array you can change the default language, example: [false, "en"], English language.
+
+"Propietario": [ //Owner name and number
+["51991378809", "Matt_M", false], //When the third element of the array is false, here you can only add secondary numbers, etc.
+["51995386439", "N3K0SM1C", true] //The third element is a boolean that will tell the bot if it is the true owner to give it complete control.
+],
+
+"LocPref": "51", //Change the value with the prefix of your main country.
+
+"NombreDelBot": "🄱🄾🅃", //You can give your bot any name.
+
+"MinimoDeUsuarios": 3, //This key works with the "join" command, if someone uses the command the bot will check if the number of participants is more than 3 and will join, otherwise not.
+
+"Limits": {"gms": 5, "dls": 10, "rdn": 15}, //Default limits for each user: games, downloads and other commands respectively.
+
+"DBtype": "json", //I dont know :v
+
+"FakeList": ["20"], //You can add more elements of numbers or prefixes, this works with the "antifakes" command, the bot will eliminate numbers that start with one of the elements of this array
+
+"GrupoWa": "", //WhatsApp link XD
+
+"recursion": false //Activate works recursively to the main executor.
+}
+```
+</details>
+
+<details><summary>Modify texts and multimedia</summary>
+  
+  > [Text files](https://github.com/NeoKode/quantum-bot/tree/main/lib/idiomas)
+Here you can modify most texts by language, available languages: (Español, English, Bahasa Indonesia, Português)
+
+  > [Media files](https://github.com/NeoKode/quantum-bot/tree/main/multimedia)
+Here you can modify some images.
 </details>
 
 ## Start bot script 🙀
