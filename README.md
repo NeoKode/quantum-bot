@@ -57,7 +57,7 @@
 ## Configure and edit bot
   <details><summary>Basic settings</summary>
     
-  [File package.json](https://github.com/NeoKode/quantum-bot/tree/main)
+  [File package.json](https://github.com/NeoKode/quantum-bot/blob/main/package.json)
     
 ```javascript
 Note: avoid using special characters when editing the package.json, example: !, @, #, $, %, ^, &, *, etc.
