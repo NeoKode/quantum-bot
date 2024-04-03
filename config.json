@@ -6,13 +6,13 @@
 	],
 	"Propietario": [
 		[
-			"51991378809",
-			"Matt_Mdz",
+			"50248975917",
+			"TMD_EDIT",
 			true
 		],
 		[
-			"51999999999",
-			"you",
+			"50236495131",
+			"TIMIDO",
 			false
 		]
 	],
@@ -21,7 +21,7 @@
 		"+ "
 	],
 	"LocPref": "51",
-	"NombreDelBot": "QUANTUM-BOT",
+	"NombreDelBot": "TIMIDO BOT",
 	"MinimoDeUsuarios": 3,
 	"Limits": {
 		"gms": 10,
