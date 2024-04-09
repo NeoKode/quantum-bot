@@ -41,6 +41,8 @@
 ~$ cd quantum-bot
 
 ~$ yarn
+
+~$ npm i
 ```
 </details>
 
@@ -63,11 +65,15 @@
 Note: avoid using special characters when editing the package.json, example: !, @, #, $, %, ^, &, *, etc.
 {
 "name": "Quantum_Bot", //If you want you can change the name of the project :D
+
 ...
+
 "author": {
 "name": "Matt_Mdz" //Here enter your name or nickname!
 },
+
 ...
+
 }
 ```
   
@@ -75,40 +81,60 @@ Note: avoid using special characters when editing the package.json, example: !, 
     
 ```javascript
 {
-"Prefijo": "/", //You can change the value with symbols, letters or special characters.
-
-"MultiIdioma": [true, ""], //Within the array you can change the default language, example: [false, "en"], English language.
-
-"Propietario": [ //Owner name and number
-["51991378809", "Matt_M", false], //When the third element of the array is false, here you can only add secondary numbers, etc.
-["51995386439", "N3K0SM1C", true] //The third element is a boolean that will tell the bot if it is the true owner to give it complete control.
+"Prefijo": ".", //You can change the value with symbols, letters or special characters.
+	
+"MultiIdioma": [ //Multi language setting
+true, //You can change to false if you want to define your language or leave it as is
+"" //If you put false in the first element, here you can indicate your language, such as: "es", "en", "id", "pt"
 ],
-
-"LocPref": "51", //Change the value with the prefix of your main country.
-
-"NombreDelBot": "🄱🄾🅃", //You can give your bot any name.
-
-"MinimoDeUsuarios": 3, //This key works with the "join" command, if someone uses the command the bot will check if the number of participants is more than 3 and will join, otherwise not.
-
-"Limits": {"gms": 5, "dls": 10, "rdn": 15}, //Default limits for each user: games, downloads and other commands respectively.
-
-"DBtype": "json", //I dont know :v
-
-"FakeList": ["20"], //You can add more elements of numbers or prefixes, this works with the "antifakes" command, the bot will eliminate numbers that start with one of the elements of this array
-
-"GrupoWa": "", //WhatsApp link XD
-
-"recursion": false //Activate works recursively to the main executor.
+	
+"Propietario": [ //Owner information and adjustment 
+[
+"51991378809", //Primary owner number 
+"Matt_Mdz", //Name or nickname
+true //You can use all functions
+],
+[
+"51999999999", 
+"you", 
+false
+]
+],
+	
+"OptConn": [ //Connection option 
+"Whatsapp", //Main bot on WhatsApp
+"+ " //Full bot number including prefix (If you do not enter the number when starting the bot, it generates a QR code, otherwise the 8-digit linking code)
+],
+	
+"LocPref": "51", //Prefix of your current country (optional)
+	
+"NombreDelBot": "QUANTUM-BOT", //Name of your bot
+	
+"MinimoDeUsuarios": 3, //If you join your bot to a group and it does not meet this number of members, the bot will not respond at all
+	
+"Limits": { //Adjustment of user limits 
+"gms": 10, //For game commands 
+"dls": 20, //For download commands
+"rdm": 30 //For random commands 
+},
+	
+"Blacklist": ["20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","60","61","62","63","64","65","66","67","68","69","7","80","81","82","83","84","85","86","87","88","89","90","91","92","93","94","95","96","97","98","99"], //Here you can add telephone prefixes or complete specific numbers that you think are bad 
+	
+"WlcLink": "", //You can put any link, You can see this in the automatic welcome messages 
+	
+"FakeServer": false, //This was used in repl.co and uptime-robot (I currently don't know of any similar method)
+	
+"recursion": false //Activate works recursively to the main executor. 
 }
 ```
 </details>
 
 <details><summary>Modify texts and multimedia</summary>
   
-  > [Text files](https://github.com/NeoKode/quantum-bot/tree/main/lib/idiomas)
+  * [Text files](https://github.com/NeoKode/quantum-bot/tree/main/lib/idiomas)
 Here you can modify most texts by language, available languages: (Español, English, Bahasa Indonesia, Português)
 
-  > [Media files](https://github.com/NeoKode/quantum-bot/tree/main/multimedia)
+  * [Media files](https://github.com/NeoKode/quantum-bot/tree/main/multimedia)
 Here you can modify some images.
 </details>
 
@@ -116,16 +142,14 @@ Here you can modify some images.
 ```
 $ cd quantum-bot
 ```
-Log in with a QR Code:
+Log in using QR or linking code (Depending on your settings in the config.json file)
 
 ```
 $ npm start 
 ```
-Log in with a Pairing Code:
-```
-$ npm start +51995xxx
-```
 
-## Thanks 🗿
+## Special thanks 🗿
 
-* <a href="https://github.com/adiwajshing/"><img alt="GitHub" src="https://img.shields.io/badge/adiwajshing/Baileys%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
+> <a href="https://github.com/adiwajshing/"><img alt="GitHub" src="https://img.shields.io/badge/adiwajshing/Baileys%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"> ᴬᴾᴵ ᴰᵉᵛᵉˡᵒᵖᵉʳ 
+
+> ![Badge](https://img.shields.io/badge/dynamic/json?label=Termux%20WABOT&style=for-the-badge&color=000000&logo=github&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FMhankBarBar%2Ftermux-wabot) ᴮᵒᵗ ᵐᵃᶦⁿ ᵇᵃˢ
