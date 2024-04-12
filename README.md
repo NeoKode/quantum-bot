@@ -152,4 +152,5 @@ $ npm start
 
 > <a href="https://github.com/adiwajshing/"><img alt="GitHub" src="https://img.shields.io/badge/adiwajshing/Baileys%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"> ᴬᴾᴵ ᴰᵉᵛᵉˡᵒᵖᵉʳ 
 
-> ![Badge](https://img.shields.io/badge/dynamic/json?label=Termux%20WABOT&style=for-the-badge&color=000000&logo=github&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FMhankBarBar%2Ftermux-wabot) ᴹᵃᶦⁿ ᵇᵃˢᵉ ᵒᶠ ᵗʰᶦˢ ᵇᵒᵗ
+> [![Custom badge](https://img.shields.io/badge/MhankBarBar-Termux|Wabot-000000?style=for-the-badge)](https://github.com/MhankBarBar/termux-wabot)
+ ᴹᵃᶦⁿ ᵇᵃˢᵉ ᵒᶠ ᵗʰᶦˢ ᵇᵒᵗ
