@@ -4,11 +4,11 @@
 
 
 
-let nkOS = {} // Initialize the code, you can change the variable name to anything else (If you are a JavaScript jaker, you will notice that there are better ways to structure this code 🫵😹)
+let nekOS = {} // Initialize the code, you can change the variable name to anything else (If you are a JavaScript jaker, you will notice that there are better ways to structure this code 🫵😹)
 
 
 // This is the core of the code that will be executed :0
-nkOS.nk = async (m, { conn }) => { //wasa moment :v
+nekOS.nk = async (m, { conn }) => { //wasa moment :v
   // Example to send a text message:
   m.reply("You only live once ⚡");
 
@@ -18,13 +18,13 @@ nkOS.nk = async (m, { conn }) => { //wasa moment :v
 
 
 // Key(s) to activate this command, let's say they are the magic words or texts that make the commands work 🪄
-nkOS.clave = ["test"]; // Command array. You can add more commands here if you want 🙀
+nekOS.clave = ["test"]; // Command array. You can add more commands here if you want 🙀
 
 
 // Category identification, this tells us which group of commands it belongs to! 🗃️
-nkOS.id = ["hta"]; // Array of categories or tags, like tagging your notes to find them faster! 🕵️
+nekOS.id = ["hta"]; // Array of categories or tags, like tagging your notes to find them faster! 🕵️
 
 
-export default nkOS; //I hope you understand it x'd (I'm not a programmer 🗿)
+export default nekOS; //I hope you understand it x'd (I'm not a programmer 🗿)
 
 //Lucky for newbies, ChatGPT exists (in my curious days there was only stackoverflow) 💀
