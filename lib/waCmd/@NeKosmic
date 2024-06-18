@@ -26,3 +26,5 @@ nkOS.id = ["hta"]; // Array of categories or tags, like tagging your notes to fi
 
 
 export default nkOS; //I hope you understand it x'd (I'm not a programmer 🗿)
+
+//Lucky for newbies, ChatGPT exists (in my curious days there was only stackoverflow) 💀
