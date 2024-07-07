@@ -140,8 +140,8 @@ Here you can modify most texts by language, available languages: (Español, Engl
 Here you can modify some images.
 </details>
 
-## Basic structure example 💅
-* [`it's easy v:`](https://github.com/NeoKode/quantum-bot/blob/main/lib/waCmd/%40NeKosmic)
+## Create your own commands 💅
+* [`Basic structure example v:`](https://github.com/NeoKode/quantum-bot/blob/main/lib/waCmd/%40NeKosmic)
 
 ## Start bot script 🙀
 ```
