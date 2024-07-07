@@ -95,9 +95,9 @@ true, //You can change to false if you want to define your language or leave it 
 true //You can use all functions
 ],
 [
-"51999999999", 
-"you", 
-false
+"51999999999", //Here you can add your other or trusted numbers 
+"you", //Nickname
+false //Can you control the bot?
 ]
 ],
 	
@@ -118,7 +118,9 @@ false
 "rdm": 30 //For random commands 
 },
 	
-"Blacklist": ["20","90", ""], //Here you can add telephone prefixes or complete specific numbers that you think are bad 
+"Blacklist": ["20","90", ""], //Here you can add telephone prefixes or complete specific numbers that you think are bad
+
+"AntiFlood": "low" //Adjust the bot's strictness against spam and usage requests: options are "low", "medium", and "extreme"
 	
 "WlcLink": "", //You can put any link, You can see this in the automatic welcome messages 
 	
