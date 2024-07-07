@@ -56,7 +56,7 @@
 
 </details>
 
-## Configure and edit bot
+## Configure and edit bot 🔧
   <details><summary>Basic settings</summary>
     
   [File package.json](https://github.com/NeoKode/quantum-bot/blob/main/package.json)
@@ -138,6 +138,9 @@ Here you can modify most texts by language, available languages: (Español, Engl
 Here you can modify some images.
 </details>
 
+## Basic structure example 💅
+* [`it's easy v:`](https://github.com/NeoKode/quantum-bot/blob/main/lib/waCmd/%40NeKosmic)
+
 ## Start bot script 🙀
 ```
 $ cd quantum-bot
@@ -148,7 +151,7 @@ Log in using QR or linking code (Depending on your settings in the config.json f
 $ npm start 
 ```
 
-## Special thanks 🗿
+## ```Special thanks! 🗿```
 
 > <a href="https://github.com/adiwajshing/"><img alt="GitHub" src="https://img.shields.io/badge/adiwajshing/Baileys%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"> ᴬᴾᴵ ᴰᵉᵛᵉˡᵒᵖᵉʳ 
 
