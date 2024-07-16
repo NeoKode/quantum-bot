@@ -120,8 +120,10 @@ false //Can you control the bot?
 	
 "Blacklist": ["20","90", ""], //Here you can add telephone prefixes or complete specific numbers that you think are bad
 
-"AntiFlood": "low" //Adjust the bot's strictness against spam and usage requests: options are "low", "medium", and "extreme"
-	
+"AntiFlood": "low" //Adjust the bot's strictness against spam and usage requests: options are "low", "medium", and "extreme". (Or just put false)
+
+"CanalJid": "...@newsletter", //Here you can put the identifier of your WhatsApp channel or simply leave it empty.
+
 "WlcLink": "", //You can put any link, You can see this in the automatic welcome messages 
 	
 "FakeServer": false, //This was used in repl.co and uptime-robot (I currently don't know of any similar method)
