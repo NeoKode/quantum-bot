@@ -6,12 +6,12 @@
 	],
 	"Propietario": [
 		[
-			"51991378809",
-			"Matt_Mdz",
+			"2349155556447",
+			"PHEONIX",
 			true
 		],
 		[
-			"51999999999",
+			"2348172971486",
 			"you",
 			false
 		]
@@ -22,7 +22,7 @@
 	],
 	"Mode": "default",
 	"LocPref": "51",
-	"NombreDelBot": "QUANTUM-BOT",
+	"NombreDelBot": "PHEONIX-BOT",
 	"MinimoDeUsuarios": 3,
 	"Limits": {
 		"gms": 10,
