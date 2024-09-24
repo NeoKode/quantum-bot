@@ -145,7 +145,7 @@ Here you can modify some images.
 </details>
 
 ## Create your own commands 💅
-* [`Basic structure example v:`](https://github.com/NeoKode/quantum-bot/blob/main/lib/waCmd/%40NeKosmic)
+* [`Basic structure example v:`](https://github.com/NeoKode/quantum-bot/blob/main/lib/waCmd/test.js)
 
 ## Start bot script 🙀
 ```
