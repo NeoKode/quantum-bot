@@ -105,6 +105,8 @@ false //Can you control the bot?
 "Whatsapp", //Main bot on WhatsApp
 "+ " //Full bot number including prefix (If you do not enter the number when starting the bot, it generates a QR code, otherwise the 8-digit linking code)
 ],
+
+"Mode": "default", //Here you can set the way in which you are going to run the bot, the "default" mode is for general use and to test code use "test"
 	
 "LocPref": "51", //Prefix of your current country (optional)
 	
