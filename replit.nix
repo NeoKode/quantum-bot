@@ -1,6 +1,6 @@
 { pkgs }: {
     deps = [
-        pkgs.nodejs
+        pkgs.nodejs-19_x
         pkgs.nodePackages.typescript
         pkgs.ffmpeg-full
         pkgs.imagemagick
