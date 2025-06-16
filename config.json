@@ -4,18 +4,16 @@
 		true,
 		""
 	],
-	"Propietario": [
-		[
-			"51991630056",
-			"Matt_Mdz",
-			true
-		],
-		[
-			"51999999999",
-			"you",
-			false
-		]
-	],
+	"Propietario": {
+		"51991630056": {
+			"nm": "Matt_Mdz",
+			"ac": true
+		},
+		"51999999999": {
+			"nm": "you",
+			"ac": false
+		}
+	},
 	"OptConn": [
 		"Whatsapp",
 		"+ "
