@@ -26,39 +26,38 @@
 </details>
 </div>
 
-## Installation  🧑‍💻
-  <details><summary>Termux</summary>
-    
-  [_>] *Copy and paste line by line into termux for installation. it can also be used on systems based on Debian and Ubuntu.*
-    
+## Installation Termux 🧑‍💻
+	
+*[_>] Copy and paste line by line into Termux for installation. It can also be used on Debian and Ubuntu-based systems.
+First step, give access to your storage*
 ```
-~$ apt update && apt upgrade -y
-
-~$ apt install nodejs git libwebp ffmpeg imagemagick yarn -y
-
-~$ git clone https://github.com/NeoKode/quantum-bot
-
-~$ cd quantum-bot
-
-~$ yarn
-
-~$ npm i
+termux-setup-storage
 ```
-</details>
+[_>] *Second step, install necessary packages and modules*
+```
+termux-wake-lock && apt update -y && yes | apt upgrade -y && pkg install -y git nodejs libwebp ffmpeg imagemagick bash jq yarn wget mpv && git clone https://github.com/NeoKode/quantum-bot.git && cd quantum-bot && yarn 
+```
+[_>] *Last step, run bot for the first time*
+```
+npm test
+```
+> [!WARNING]
+*If Error [ERR_MODULE_NOT_FOUND] appears:*
+```
+npm i && npm test
+```
 
-<details><summary>Node.js</summary>
-  
-  [_>] *This bot is developed in JavaScript and is compatible with any Node.js service for its execution.*
-
-- Android/iPhone
-- PC/RDP/VPS
-- Host/Virtual machines 
-
-</details>
+> [!IMPORTANT]
+This bot is developed in JavaScript and is compatible with any Node.js service for its execution.
+> - *Android/iPhone*
+> - *PC/RDP/VPS*
+> - *Host/Virtual machines*
 
 ## Configure and edit bot 🔧
+> [!CAUTION]
+Please, if you don't know anything about basic programming, avoid editing the code. ;)
   <details><summary>Basic settings</summary>
-    
+	  
   [File package.json](https://github.com/NeoKode/quantum-bot/blob/main/package.json)
     
 ```javascript
@@ -87,19 +86,17 @@ Note: avoid using special characters when editing the package.json, example: !, 
 true, //You can change to false if you want to define your language or leave it as is
 "" //If you put false in the first element, here you can indicate your language, such as: "es", "en", "id", "pt"
 ],
-	
-"Propietario": [ //Owner information and adjustment 
-[
-"51991378809", //Primary owner number 
-"Matt_Mdz", //Name or nickname
-true //You can use all functions
-],
-[
-"51999999999", //Here you can add your other or trusted numbers 
-"you", //Nickname
-false //Can you control the bot?
-]
-],
+
+"Propietario": { //Owner information and adjustment 
+"51991630056": { //Primary owner number
+"nm": "Matt_Mdz", //Name or nickname
+"ac": true //Has complete control of the bot
+},
+"51999999999": { //Here you can add your other or trusted numbers 
+"nm": "you", //Nickname
+"ac": false //Can you control the bot?
+}
+},
 	
 "OptConn": [ //Connection option 
 "Whatsapp", //Main bot on WhatsApp
@@ -148,13 +145,17 @@ Here you can modify some images.
 * [`Basic structure example v:`](https://github.com/NeoKode/quantum-bot/blob/main/lib/waCmd/test.js)
 
 ## Start bot script 🙀
+
+> [!NOTE] 
+Use this when you have already installed the bot on your system.
 ```
-$ cd quantum-bot
+cd quantum-bot
 ```
+> [!TIP]
 Log in using QR or linking code (Depending on your settings in the config.json file)
 
 ```
-$ npm start 
+npm start 
 ```
 
 ## ```Special thanks! 🗿```
@@ -163,3 +164,4 @@ $ npm start
 
 > [![Custom badge](https://img.shields.io/badge/MhankBarBar-Termux|Wabot-000000?style=for-the-badge)](https://github.com/MhankBarBar/termux-wabot)
  ᴹᵃᶦⁿ ᵇᵃˢᵉ ᵒᶠ ᵗʰᶦˢ ᵇᵒᵗ
+>
